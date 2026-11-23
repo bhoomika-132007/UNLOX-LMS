@@ -298,8 +298,6 @@ This cell writes one `.py` file containing both the CNN workflow and the Streaml
 # 
 # with st.expander("About this project"):
 #     st.write("The application uses a Convolutional Neural Network trained on the MNIST dataset. Images are converted to grayscale, resized and centred in a 28 × 28 input.")
-#
-
 
 
 
