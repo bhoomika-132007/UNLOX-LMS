@@ -322,7 +322,5 @@ print(os.path.exists("mnist_cnn_bhoomika.keras"))
 from google.colab import output
 print(output.eval_js("google.colab.kernel.proxyPort(8501)"))
 
-!cat /content/streamlit3.log
-
 from google.colab import output
 print(output.eval_js("google.colab.kernel.proxyPort(8503)"))
