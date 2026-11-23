@@ -105,15 +105,16 @@ A validation split monitors performance on data not used for weight updates. Ear
 early_stop = tf.keras.callbacks.EarlyStopping(
     monitor="val_loss", patience=2, restore_best_weights=True
 )
-
 history = model.fit(
     x_train, y_train,
-    epochs=8,
-    batch_size=128,
+    epochs=2,
+    batch_size=512,
     validation_split=0.10,
     callbacks=[early_stop],
     verbose=1
 )
+
+model.save("mnist_cnn_bhoomika.keras")
 
 """## 6. Training and validation curves
 These plots provide the accuracy and loss evidence requested in the assignment.
