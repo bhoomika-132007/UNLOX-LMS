@@ -299,28 +299,6 @@ This cell writes one `.py` file containing both the CNN workflow and the Streaml
 #     st.write("The application uses a Convolutional Neural Network trained on the MNIST dataset. Images are converted to grayscale, resized and centred in a 28 × 28 input.")
 #
 
-"""## 11. Run the Streamlit application
-
-After the training cell has saved the model and the previous cell has created the Python script, run this command in a Colab cell:
-
-```python
-!streamlit run Bhoomika_CNN_Streamlit_Project.py
-```
 
 
-"""
 
-import os
-print(os.path.exists("Bhoomika_CNN_Streamlit_Project.py"))
-
-from google.colab import files
-files.download("Bhoomika_CNN_Streamlit_Project.py")
-
-import os
-print(os.path.exists("mnist_cnn_bhoomika.keras"))
-
-from google.colab import output
-print(output.eval_js("google.colab.kernel.proxyPort(8501)"))
-
-from google.colab import output
-print(output.eval_js("google.colab.kernel.proxyPort(8503)"))
