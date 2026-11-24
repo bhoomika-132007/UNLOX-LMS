@@ -300,8 +300,3 @@ This cell writes one `.py` file containing both the CNN workflow and the Streaml
 #     st.write("The application uses a Convolutional Neural Network trained on the MNIST dataset. Images are converted to grayscale, resized and centred in a 28 × 28 input.")
 Live Application
 For the live application link, please refer to the README.md file in the GitHub repository.
-## Project Files
-- `app.py` – Streamlit application for image upload and digit prediction.
-- `mnist_cnn_bhoomika.keras` – Trained CNN model.
-- `requirements.txt` – Required Python libraries.
-- `bhoomika_cnn_streamlit_project.py` – CNN training and evaluation code (Part A).
