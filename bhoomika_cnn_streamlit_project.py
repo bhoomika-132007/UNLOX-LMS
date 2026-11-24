@@ -298,13 +298,8 @@ This cell writes one `.py` file containing both the CNN workflow and the Streaml
 # 
 # with st.expander("About this project"):
 #     st.write("The application uses a Convolutional Neural Network trained on the MNIST dataset. Images are converted to grayscale, resized and centred in a 28 × 28 input.")
-
-## Live Application
-
-[Open Handwritten Digit Recognition Application](https://bhoomika-132007-unlox-lms-app-8xxljc.streamlit.app/)
-
-**Note:** The Streamlit application is provided separately in `app.py`. The live application can be accessed using the link above.
-
+Live Application
+For the live application link, please refer to the README.md file in the GitHub repository.
 ## Project Files
 - `app.py` – Streamlit application for image upload and digit prediction.
 - `mnist_cnn_bhoomika.keras` – Trained CNN model.
