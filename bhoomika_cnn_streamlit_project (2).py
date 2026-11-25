@@ -336,3 +336,5 @@ if 'model' not in globals():
 if 'model' in globals():
     model.save("mnist_cnn_bhoomika.keras")
     print("Model successfully saved.")
+    
+    **Note:** For accessing the live Streamlit application, please refer to the `README.md` file in this repository and use the application link provided there.
